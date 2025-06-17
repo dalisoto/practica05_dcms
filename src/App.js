@@ -10,6 +10,7 @@ function About() {
   <div>
     <h2>Acerca de Nosotros</h2>
     <h3>Hola soy Dalia del Carmen Mendiola Soto</h3>
+    <p>16 de Junio del 2025 :D</p>
   </div>
   )
 }
@@ -17,7 +18,7 @@ function About() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/practica05_dcms">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
